@@ -232,16 +232,6 @@ button {
     height: 112px; 
 }
 
- /* .values-icon {
-    width: 64px;
-    height: 64px;
-} */
-
-.values svg {
-    width: 64px;
-    height: 64px;
-}
-
 .values-name {
     color: #2E2F42;
     font-size: 20px;
@@ -334,13 +324,6 @@ button {
 
 .socials-icon {
     fill: currentColor;
-    /* width: 16px;
-    height: 16px; */
-}
-
-.team svg {
-    width: 16px;
-    height: 16px;
 }
 
 /* our portfolio */
@@ -471,11 +454,6 @@ button {
     /* width: 24px;
     height: 24px; */
     fill: currentColor;
-}
-
-footer svg {
-    width: 24px;
-    height: 24px;
 }
 
 .footer-socials-link {
