@@ -232,7 +232,12 @@ button {
     height: 112px; 
 }
 
- .values-icon {
+ /* .values-icon {
+    width: 64px;
+    height: 64px;
+} */
+
+.values svg {
     width: 64px;
     height: 64px;
 }
@@ -329,6 +334,11 @@ button {
 
 .socials-icon {
     fill: currentColor;
+    /* width: 16px;
+    height: 16px; */
+}
+
+.team svg {
     width: 16px;
     height: 16px;
 }
@@ -458,9 +468,14 @@ button {
 }
 
 .footer-socials-icon {
+    /* width: 24px;
+    height: 24px; */
+    fill: currentColor;
+}
+
+footer svg {
     width: 24px;
     height: 24px;
-    fill: currentColor;
 }
 
 .footer-socials-link {
@@ -475,7 +490,8 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link:hover {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
     background-color: #31D0AA;
 }
 
